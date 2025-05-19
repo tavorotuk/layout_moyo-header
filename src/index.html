@@ -12,11 +12,42 @@
     />
     <title>Moyo header</title>
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="./style.css"
     />
   </head>
   <body>
-    <h1>Moyo header</h1>
+    <header>
+      <a href="link-logo">
+        <img
+        class="image-logo"
+        src="/src/images/logo.png"
+        alt="Menu logo"
+        >
+      </a>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a class="link is-active" href="#">Apple</a></li>
+          <li><a class="link" href="link">Samsung</a></li>
+          <li><a class="link" href="link">Smartphones</a></li>
+          <li>
+            <a
+              class="link"
+              href="link"
+              data-qa="hover">
+              Laptops & Computers
+            </a>
+          </li>
+          <li><a class="link" href="link">Gadgets</a></li>
+          <li><a class="link" href="link">Tablets</a></li>
+          <li><a class="link" href="link">Photo</a></li>
+          <li><a class="link" href="link">Video</a></li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
